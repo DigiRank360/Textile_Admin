@@ -111,7 +111,7 @@ function Login({ onLogin }) {
     <div className="login-page">
       <div className="login-art" style={{ backgroundImage: `url(${loginBg})` }}>
         <div className="login-art-inner">
-          <span className="login-tag">Hummo Textile</span>
+          <span className="login-tag">Eagle Textile</span>
           <h1>Weaving quality,<br />managing it beautifully.</h1>
           <p>Manage your products, categories and homepage banners from one place.</p>
           <ul>
@@ -123,7 +123,7 @@ function Login({ onLogin }) {
       </div>
       <div className="login-panel">
         <form className="login-form" onSubmit={submit}>
-          <div className="login-logo">H</div>
+          <div className="login-logo">E</div>
           <h2>Welcome back</h2>
           <p className="muted">Sign in to your admin dashboard</p>
 
@@ -148,7 +148,7 @@ function Login({ onLogin }) {
 
           {err && <div className="error">{err}</div>}
           <button className="btn primary login-btn" disabled={busy}>{busy ? "Signing in..." : "Sign In →"}</button>
-          <p className="login-foot muted">© {new Date().getFullYear()} Hummo Textile. All rights reserved.</p>
+          <p className="login-foot muted">© {new Date().getFullYear()} Eagle Textile. All rights reserved.</p>
         </form>
       </div>
     </div>
@@ -494,7 +494,7 @@ export default function App() {
       <aside className={menu ? "side open" : "side"}>
         <div className="side-brand">
           <div className="side-logo">H</div>
-          <div><strong>Hummo Textile</strong><small>Admin Panel</small></div>
+          <div><strong>Eagle Textile</strong><small>Admin Panel</small></div>
         </div>
         <div className="side-label">Menu</div>
         {TABS.map((t) => (
